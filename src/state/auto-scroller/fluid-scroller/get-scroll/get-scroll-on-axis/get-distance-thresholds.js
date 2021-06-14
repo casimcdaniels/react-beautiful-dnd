@@ -21,5 +21,7 @@ export default (container: Rect, axis: Axis): DistanceThresholds => {
     maxScrollValueAt,
   };
 
+  console.log(thresholds);
+
   return thresholds;
 };
